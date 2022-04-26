@@ -156,20 +156,26 @@ body {
     background-color: rgba(26, 188, 156, 0.7);
     border: 0;
     color: #ffffff;
-
+    display: inline-block;
+    padding: 0;
+    width: 104px;
+    height: 104px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .slider-button-left {
     float: left;
+    background-image: url(../img/to\ left.png);
 }
 
 .slider-button-right {
     float: right;
-    
+    background-image: url(../img/to\ right.png);
 }
 
 .slider-buttons:hover {
     background-color: rgb(26, 188, 156);
-   
 }
 
 /* COLLECTION */
