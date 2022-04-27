@@ -267,14 +267,14 @@ body {
     float: left;
     font-size: 0;
 }
-
+ 
 .list-cards-item:not(:last-child) {
     margin-right: 30px;
 }
 
 /* OVERLAY CARDS */
 .overlay-cards {
-    display: none;
+    opacity: 0;
 }
 .list-cards-item:hover .overlay-cards {
     
@@ -282,11 +282,11 @@ body {
     height: 282px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
-    display: block;
     border: 10px solid rgba(255, 255, 255, 0.9);
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 1;
 }
 
 .list-cards-item {
